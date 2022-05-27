@@ -1,0 +1,5 @@
+#Program to replace a word with another word in string.
+a = "Hello World"
+print(a)                        #  Hello World
+x = a.replace("World","India")
+print(x)                        # Hello India

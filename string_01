@@ -1,0 +1,5 @@
+# This is the program to concatenation of two strings.
+a = "HELLO "
+b = "WORLD"
+c = a+b
+print(c)

@@ -1,0 +1,3 @@
+# This is the program to count the frequency of a word or letter.
+s = "This is the program to count the frequency of a word in string"
+print(s.count("t"))                   # 5

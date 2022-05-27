@@ -1,0 +1,9 @@
+# This is the program to find the frequency of a item in tuple.
+t = (1,2,3,1,2,4,5,6,4)
+c = 0
+n = 4
+for i in t :
+  if i == n :
+    c += 1
+    
+print(c)              # 2

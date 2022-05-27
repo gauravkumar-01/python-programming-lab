@@ -1,0 +1,4 @@
+# This is the program to find the index of an item in tuple.
+t = ('h','e','l','l','o','w','o','r','l','d')
+i = t.index('d')
+print(i)              # 9

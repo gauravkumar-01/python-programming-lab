@@ -1,0 +1,3 @@
+#This is the program to find the length of string.
+s = "This is the Python Program"
+print(len(s))              #  len() function is used to find the length:- 26

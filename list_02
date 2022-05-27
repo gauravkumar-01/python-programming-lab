@@ -1,0 +1,12 @@
+# This is the program to find the prime number from list
+l = [1,3,5,7,9,11,13,15]
+p = []
+for i in l :
+    if i > 1 :
+        c = 0
+        for j in range (2,i) :
+            if i%j == 0 :
+                c += 1
+        if c == 0 :
+            p.append(i)
+print(p)              #[3, 5, 7, 11, 13]

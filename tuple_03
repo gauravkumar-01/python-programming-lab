@@ -1,0 +1,4 @@
+# This is the program to convert a tupple in a list.
+t = (1,2,3,4,5)
+l = list(t)
+print(l)              # [1,2,3,4,5]

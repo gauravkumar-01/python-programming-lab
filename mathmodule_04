@@ -1,0 +1,4 @@
+# This is the program to find any power of any number.
+import math
+a = 5
+print(math.pow(a,3))                        # 125.0

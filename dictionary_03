@@ -1,0 +1,7 @@
+#This is the program to print the keys and values of Dictionary.
+A = {"NAME" : "GAURAV" , "COURSE" : "B.TECH","BRANCH" : "CSE", "COLLEGE" : "GLA UNIVERSITY"}
+print(A)                      #{'NAME' : 'GAURAV', 'COURSE' : 'B.TECH', 'BRANCH' : 'CSE', 'COLLEGE' : 'GLA UNIVERSITY'}
+K = A.keys()
+print(K)                      #dict_keys(['NAME' ,'COURSE' ,'BRANCH' ,'COLLEGE' ])
+V = A.values()
+print(V)                      #dict_values(['GAURAV' ,'B.TECH' ,'CSE' ,'COLLEGE' ])

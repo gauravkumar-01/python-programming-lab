@@ -1,0 +1,5 @@
+# This is the program to change the value of a key in dictionary.
+# This is the program to print the value of any key in the dictionary .
+A = {'a' : "PYTHON" , 'b' : "JAVA" , 'c' : "C" , 'd' : "CSS" }
+A['c'] = "c++"
+print(A)                      # {'a' : 'PYTHON' , 'b' : 'JAVA' , 'c' : 'C++' , 'd' : 'CSS' }

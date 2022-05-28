@@ -1,0 +1,8 @@
+# This is program of function of a global variable.
+z = 25
+def fun ():
+  global z
+  print(z)                      # 25
+  z = 11
+fun ()
+print(z)                        # 11

@@ -1,0 +1,4 @@
+# This is the program to introduce the maths module.
+import math
+print(math.ceil(5.435))                     # 6
+print(math.floor(3.157))                    # 3

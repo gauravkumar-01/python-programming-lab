@@ -1,0 +1,6 @@
+# This is the program to find the remainder due to division of number in math module.
+import math
+a = 3
+b = 5
+print(math.fmod(a,b))                           # 3.0
+print(math.fmod(b,a))                           # 2.0

@@ -1,0 +1,4 @@
+# This is the program to print the value of any key in the dictionary .
+A = {'a' : "HELLO" , 'b' : "INDIA" , 'c' : "GOOD" , 'd' : "MORNING" }
+print(A)                      #{'a' : 'HELLO' , 'b' : 'INDIA' , 'c' : 'GOOD' , 'd' : 'MORNING' }
+print(A['b'])                  #INDIA

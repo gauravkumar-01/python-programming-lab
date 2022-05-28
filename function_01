@@ -1,0 +1,7 @@
+#This is the program for the sum of two numbers with user-defined function.
+def sum(c,d) :
+  return c+d
+a = 5
+b = 7
+out = sum(a,b)
+print(out)                      # 12

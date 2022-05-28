@@ -1,0 +1,7 @@
+def my_func():
+	x = 10
+	print("Value inside function:",x)                       # Value inside function: 10      
+
+x = 20
+my_func()
+print("Value outside function:",x)                        # Value outside function: 20

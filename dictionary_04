@@ -1,0 +1,5 @@
+# This is the program to print the keys and values in the form of tuple in Dictionary.
+A = {"NAME" : "GAURAV" , "COURSE" : "B.TECH","BRANCH" : "CSE", "COLLEGE" : "GLA"}
+X = A.items()
+print(X)
+              # dict_items([('NAME','GAURAV') ,('COURSE' , 'B.TECH') , ('BRANCH','CSE) ,('COLLEGE' , 'GLA UNIVERSITY')])

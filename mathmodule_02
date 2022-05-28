@@ -1,0 +1,5 @@
+# This is the program to introduce the factorial and squareroot function in python.
+import math
+a = 4
+print(math.factorial(a))                      # 24
+print(math.sqrt(a))                           # 2.0

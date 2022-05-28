@@ -1,0 +1,7 @@
+A = {1:"GAURAV",2:"ROHAN",3:"MOHAN",4:"ANUJ",5: "ASHISH"}
+B = A
+print(A)					# {1: 'GAURAV', 2: 'ROHAN', 3: 'MOHAN', 4: 'ANUJ', 5: 'ASHISH'}
+print(B)					# {1: 'GAURAV', 2: 'ROHAN', 3: 'MOHAN', 4: 'ANUJ', 5: 'ASHISH'}
+B.clear()
+print(B)					# {}
+print(A)					# {}

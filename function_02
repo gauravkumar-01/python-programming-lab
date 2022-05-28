@@ -1,0 +1,18 @@
+# This  is the program to filter the prime number in a list through function.
+def prime (m) :
+    p = []
+    n = []
+    for i in m :
+        c = 0
+        if i > 1 :
+            for j in range(2,i) :
+                if i%j == 0 :
+                    c += 1
+            if c == 0 :
+                p.append(i)
+            else :
+                n.append(i)
+    print(p)                      # [2, 3, 5, 7, 11]
+    print(n)                      # [4, 6, 8, 9]
+l = [1,2,3,4,5,6,7,8,9,11]
+prime(l)

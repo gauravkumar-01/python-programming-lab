@@ -1,0 +1,7 @@
+# This is the program for the boolean expression.
+
+A = "Python Programming"
+out1 = "Py" in A
+out2 = "Pa" in A
+print(out1)                     # True
+print(out2)                     # False

@@ -1,0 +1,8 @@
+# This is the basic python program to addition, subtraction, multiplication and Division
+
+A = 7
+B = 5
+print(A+B)                      # 12
+print(A-B)                      # 2
+print(A*B)                      # 35
+print(A/B)                      # 1.4

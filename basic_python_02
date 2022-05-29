@@ -1,0 +1,9 @@
+# This is the program to check the class type of a variable
+A = 5
+B = "Gaurav"
+C = [1,2,3,4,5]
+D = (6,7,8,9)
+print(type(A))                      # <class 'int'>
+print(type(B))                      # <class 'str'>
+print(type(C))                      # <class 'list'>
+print(type(D))                      # <class 'tuple'>

@@ -1,0 +1,8 @@
+# This is the Python Program to find the identity of a variable.
+
+A = 10
+B = 10
+C = 15
+print(id(A))                      # 9788896
+print(id(B))                      # 9788896, These are same because value is same.
+print(id(C))                      # 9789056,This is different due to different value

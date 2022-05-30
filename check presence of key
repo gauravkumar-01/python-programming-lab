@@ -1,0 +1,15 @@
+# This is th program to check weather the key is present in the dictionary or not.
+d={}
+x=int(input())
+for i  in range (x):
+    k=int(input())
+    v=int(input())
+    d.update({k:v})
+key=int(input())
+for i in d.keys():
+    if i==key:
+        print('Present')
+        break
+    else:
+        print('Not  Present')
+        break

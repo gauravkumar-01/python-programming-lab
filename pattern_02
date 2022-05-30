@@ -1,0 +1,6 @@
+# This is the program to print pattern in number form.
+n = int(input("Enter number of lines :- "))
+for i in range (n+1) :
+  for j in range (i) :
+    print(i,end = "")
+  print()
